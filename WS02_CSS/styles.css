@@ -1,13 +1,37 @@
 h3 {
 color: #4bbbca;
 }
+#ravintolat-Bray{
+text-align: center;
+color: rgb(26, 72, 164)
+}
 body {
 background-color: beige;
 }
 h1 {
-background-color:#4bbbca
+background-color:#cbe1e4
 }
+h1 {text-align: center;
+}
+h2 {text-align: center;
+}
+#Bray-esittely {text-align: center
+;}
 div {
 padding: 20px;
 margin: 10px;
 }
+.imagine-container {text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #4bbbca;
+  }
+  th, td {
+    padding: 7px;
+    text-align: center
+  }
+  table, th, td {
+    border: 2px solid;
+  }
