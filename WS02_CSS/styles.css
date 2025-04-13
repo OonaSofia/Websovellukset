@@ -1,6 +1,13 @@
 h3 {
-color: rgb(56, 200, 219);
+color: #4bbbca;
 }
 body {
 background-color: beige;
+}
+h1 {
+background-color:#4bbbca
+}
+div {
+padding: 20px;
+margin: 10px;
 }
