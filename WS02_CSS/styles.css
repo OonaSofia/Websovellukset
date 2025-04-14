@@ -17,10 +17,6 @@ h2 {text-align: center;
 }
 #Bray-esittely {text-align: center
 ;}
-div {
-padding: 20px;
-margin: 10px;
-}
 .imagine-container {text-align: center;
 }
 table {
@@ -35,3 +31,8 @@ table {
   table, th, td {
     border: 2px solid;
   }
+.form-taulukko {border: 3px outset #4bbbca; ;
+  background-color: rgb(230, 238, 240);
+  margin: 100px 500px 70px 500px;
+  text-align: center;
+}
