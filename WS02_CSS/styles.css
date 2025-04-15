@@ -21,8 +21,10 @@ h2 {text-align: center;
 }
 table {
     border-collapse: collapse;
-    width: 100%;
-    color: #4bbbca;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
   }
   th, td {
     padding: 7px;
