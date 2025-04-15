@@ -1,39 +1,47 @@
 h3 {
-color: #4bbbca;
+  color: #4bbbca;
 }
-#ravintolat-Bray{
-text-align: center;
-color: rgb(26, 72, 164)
+#ravintolat-Bray {
+  text-align: center;
+  color: rgb(26, 72, 164);
 }
 body {
-background-color: beige;
+  background-color: beige;
 }
 h1 {
-background-color:#cbe1e4
+  background-color: #cbe1e4;
 }
-h1 {text-align: center;
+h1 {
+  text-align: center;
 }
-h2 {text-align: center;
+h2 {
+  text-align: center;
 }
-#Bray-esittely {text-align: center
-;}
-.imagine-container {text-align: center;
+#Bray-esittely {
+  text-align: center;
+}
+.imagine-container {
+  text-align: center;
 }
 table {
-    border-collapse: collapse;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-  }
-  th, td {
-    padding: 7px;
-    text-align: center
-  }
-  table, th, td {
-    border: 2px solid;
-  }
-.form-taulukko {border: 3px outset #4bbbca; ;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+th,
+td {
+  padding: 7px;
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 2px solid;
+}
+.form-taulukko {
+  border: 3px outset #4bbbca;
   background-color: rgb(230, 238, 240);
   margin: 100px 500px 70px 500px;
   text-align: center;
