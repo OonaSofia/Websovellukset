@@ -1,7 +1,7 @@
 h3 {
   color: #4bbbca;
 }
-#ravintolat-Bray {
+#pupu-lajit {
   text-align: center;
   color: rgb(26, 72, 164);
 }
@@ -17,33 +17,10 @@ h1 {
 h2 {
   text-align: center;
 }
-#Bray-esittely {
+#Puput-info {
   text-align: center;
 }
 .imagine-container {
-  text-align: center;
-}
-table {
-  border-collapse: collapse;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-}
-th,
-td {
-  padding: 7px;
-  text-align: center;
-}
-table,
-th,
-td {
-  border: 2px solid;
-}
-.form-taulukko {
-  border: 3px outset #4bbbca;
-  background-color: rgb(230, 238, 240);
-  margin: 100px 500px 70px 500px;
   text-align: center;
 }
 .box {
@@ -56,12 +33,39 @@ td {
   transition: width 2s, height 2s, background-color 2s, rotate 2s;
 }
 .transition-button {
-  background-color: #4bbbca;
+  background-color: #3e9ca9;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 .transition-button:hover {
+  transform: rotate(180deg);
   background-color: aquamarine;
 }
+.transition-button {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(76, 173, 195);
+  position: relative;
+  animation: move 2s infinite alternate;
+}
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
+}
+.pupu-lista li:nth-child(odd) {
+  background-color: rgb(112, 206, 225);
+}
+
+.pupu-lista li:nth-child(even) {
+  background-color: rgb(218, 176, 206);
+
+}
+.pupu-lista{text-align: center;
+}
+
