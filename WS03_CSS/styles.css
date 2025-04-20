@@ -6,7 +6,7 @@ h3 {
   color: rgb(26, 72, 164);
 }
 body {
-  background-color: beige;
+  background-color: rgb(238, 211, 226);
 }
 h1 {
   background-color: #cbe1e4;
@@ -22,15 +22,6 @@ h2 {
 }
 .imagine-container {
   text-align: center;
-}
-.box {
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-color: #8686c5;
-  transition: width 2s, height 2s, background-color 2s, rotate 2s;
 }
 .transition-button {
   background-color: #3e9ca9;
@@ -68,4 +59,31 @@ h2 {
 }
 .pupu-lista{text-align: center;
 }
-
+.imagine-container {
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+.imagine-container:hover {
+  filter: grayscale(0%);
+}
+.sanasto {
+  position: relative;
+  padding-left: 20px;
+  font-style: italic;
+}
+.sanasto::before {
+  content:'“';
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgb(112, 206, 225);
+}
+.sanasto::after {
+  content:'”';
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgb(112, 206, 225);
+}
