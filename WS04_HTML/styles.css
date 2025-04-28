@@ -1,105 +1,115 @@
 .container-first {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .box {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
-  }
-  .grid-item {
-    background-color: lightgreen;
-    padding: 20px;
-    text-align: center;
-  }
-  .box {
-    background-color: rgb(112, 206, 225);
-    padding: 10px;
-    text-align: center;
-  }
+  height: 100px;
+  border: 1px solid rgb(215, 201, 201);
+}
+button {
+  font-size: 18px;
+  line-height: 1.5;
+  width: 15%;
+  color: #4bbbca;
+}
+.container-first {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header {
+  background: rgb(245, 175, 226);
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+section {
+  zoom: 0.8;
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
 h3 {
-    color: #4bbbca;
-  }
-  body {
-    background-color: rgb(238, 211, 226);
-  }
-  h1 {
-    background-color: #cbe1e4;
-  }
-  h1 {
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  #Puput-info {
-    text-align: center;
-  }
-  .imagine-container {
-    text-align: center;
-  }
-  .transition-button {
-    background-color: #3e9ca9;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .transition-button:hover {
-    transform: rotate(180deg);
-    background-color: aquamarine;
-  }
-  .transition-button {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(76, 173, 195);
-    position: relative;
-    animation: move 2s infinite alternate;
-  }
-  @keyframes move {
-    from {
-      left: 0;
-    }
-    to {
-      left: 100px;
-    }
-  }
-  .imagine-container {
-    filter: grayscale(100%);
-    transition: filter 0.2s ease;
-  }
-  .imagine-container:hover {
-    filter: grayscale(0%);
-  }
-  .sanasto {
-    position: relative;
-    padding-left: 20px;
-    font-style: italic;
-  }
-  .sanasto::before {
-    content:'“';
-    font-size: 30px;
-    position: absolute;
+  color: #4bbbca;
+}
+body {
+  background-color: rgb(238, 211, 226);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#Puput-info {
+  text-align: center;
+}
+.imagine-container {
+  text-align: center;
+}
+.transition-button {
+  background-color: #3e9ca9;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.transition-button:hover {
+  transform: rotate(180deg);
+  background-color: aquamarine;
+}
+.transition-button {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(76, 173, 195);
+  position: relative;
+  animation: move 2s infinite alternate;
+}
+@keyframes move {
+  from {
     left: 0;
-    top: 0;
-    color: rgb(112, 206, 225);
   }
-  .sanasto::after {
-    content:'”';
-    font-size: 30px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: rgb(112, 206, 225);
+  to {
+    left: 100px;
   }
-  .grid-second {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-  }
-  .grid-item {
-    background-color: rgb(229, 190, 238);
-    padding: 20px;
-    text-align: center;
-  }
+}
+.imagine-container {
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+.imagine-container:hover {
+  filter: grayscale(0%);
+}
+.sanasto {
+  position: relative;
+  padding-left: 20px;
+  font-style: italic;
+}
+.sanasto::before {
+  content: "“";
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgb(112, 206, 225);
+}
+.sanasto::after {
+  content: "”";
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgb(112, 206, 225);
+}
+.grid-second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.grid-item {
+  background-color: rgb(229, 190, 238);
+  padding: 20px;
+  text-align: center;
+}
