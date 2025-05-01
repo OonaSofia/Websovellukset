@@ -17,9 +17,15 @@ header {
   background: rgb(245, 175, 226);
   height: 100px;
 }
+footer {
+    text-align: center;
+    color: rgb(70, 195, 208);
+    line-height: 10px;
+    margin: 0;
+}
 h1 {
   text-align: center;
-  color: white;
+  color: rgb(122, 198, 214);
   line-height: 100px;
   margin: 0;
 }
