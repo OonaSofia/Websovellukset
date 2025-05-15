@@ -12,51 +12,30 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <style>
-      div.gallery {
-        border: 1px solid #ccc;
-      }
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      .responsive {
-        padding: 0 6px;
-        width: 24.99999%;
-      }
-      @media only screen and (max-width: 700px) {
-        .responsive {
-          width: 49.99999%;
-          margin: 6px 0;
-        }
-      }
-      @media only screen and (max-width: 500px) {
-        .responsive {
-          width: 100%;
-        }
-      }
-      .gallery-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        padding: 10px;
-      }
       header {
         padding: 50px;
         text-align: center;
         font-size: 15px;
         color: rgb(9, 8, 9);
       }
+      h2 {
+        text-align: center;
+        color: #c2185b;
+        margin-top: 40px;}
+    .card-title {
+    text-align: center;
+    color: #c2185b;
+    }
+    .dating-card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .section-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
     </style>
   </head>
   <body>
@@ -79,7 +58,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a class="nav-link" aria-current="page" href="index.html"
                   >Koti</a
                 >
               </li>
@@ -91,7 +70,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle active"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -100,7 +79,11 @@
                   Älä unohda näitä
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="fourth.html">Parhaat treffit ravintolat</a></li>
+                  <li>
+                    <a class="dropdown-item active" href="fourth.html"
+                      >Parhaat treffit ravintolat</a
+                    >
+                  </li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                 </ul>
               </li>
@@ -109,47 +92,40 @@
         </div>
       </nav>
     </header>
-    <main>
-    <h2>Miksi Minun Omakattaus</h2>
-    <p>
-       Jos joku kysyy, mitä haluan tehdä, vastaan aina: mennään syömään!<br />
-      Täällä jaan rakkaimmat ravintolani Helsingistä  <br />
-      Täällä jaan omat suosikkini, jotka jokaisen foodie-ystävän kannattaa testata. <br> sillä aina ei ole helppo päättä minne mennä syömään!
-    </p>
-      <div class="gallery-wrapper">
-        <div class="responsive">
-          <div class="gallery">
-            <img
-              src="imagines_WS07/kahvila.jpeg"
-              alt="Korealainen kahvila"
-              width="600"
-              height="400"
-            />
-            <div class="desc">Korealainen kahvila Helsingissä</div>
-          </div>
-        </div>
-        <div class="responsive">
-          <div class="gallery">
-            <img
-              src="imagines_WS07/farang.jpeg"
-              alt="farang"
-              width="600"
-              height="400"
-            />
-            <div class="desc">Ravintola Farang</div>
-          </div>
-        </div>
-      </div>
-      <h3> Kuka olen ?</h3>
-      <p>
-        This paragraph contains a lot of lines in the source code, but the
-        browser ignores it.
-      </p>
-      <p>
-        This paragraph contains a lot of spaces in the source code, but the
-        browser ignores it.
-      </p>
-    </main>
+    <main class="container">
+    <h2 class="section-title">Top 3 Treffipaikkaa</h2>
+        
+    <div class="row mt-4">
+    <div class="col-md-4">
+     <div class="card dating-card">
+    <img src="imagines_WS07/305.jpeg" class="card-img-top" alt="Ravintola 305">
+     <div class="card-body">
+    <h5 class="card-title">Ravintola 305</h5>
+    <p class="card-text">Hakaniemen helmi, moderni ja tyylikäs paikka, jossa on intiimi tunnelma. Täydellinen ensimmäisille treffeille tai juhlaillalliselle. </p>
+    </div>
+    </div>
+    </div> 
+    <div class="col-md-4">
+     <div class="card dating-card">
+    <img src="imagines_WS07/boonam.jpeg" class="card-img-top" alt="Boonam">
+    <div class="card-body">
+    <h5 class="card-title">Boon Nam</h5>
+    <p class="card-text">Aasian makuja ja tunnelmaa. Jaettuja annoksia, kynttilänvaloa ja rento ilmapiiri. Tarjoaa myös erinomaiset cocktailit</p>
+     </div>
+    </div>
+     </div>
+     <div class="col-md-4">
+    <div class="card dating-card">
+     <img src="imagines_WS07/pizzahut.jpeg" class="card-img-top" alt="Pizza Hut">
+    <div class="card-body">
+    <h5 class="card-title">Pizza Hut Kotona</h5>
+    <p class="card-text">Rento ja hauska valinta. Välillä on myös mukavaa vain nauraa, jakaa pizza ja unohtaa muodollisuudet.</p>
+     </div>
+     </div>
+     </div>
+     </div>
+     </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"

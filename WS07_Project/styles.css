@@ -93,4 +93,41 @@ footer {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 20px;}
-  
+
+    .section-otsikko {
+        background-color: #fceef1; 
+        color: #3e3e3e;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 2rem; }
+        .image-menu {
+            text-align: center;
+            margin: 30px 0;
+          }
+          
+          .image-menu img {
+            max-width: 100%;
+            height: auto;
+            width: 600px; /* or another max size you like */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional nice effect */
+          }
+          
+          .image-caption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #6c757d;
+          }
+          
+    
+ 
+      
+      
+
+      
+    
+      
